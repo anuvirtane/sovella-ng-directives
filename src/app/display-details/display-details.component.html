@@ -1,0 +1,56 @@
+<section>
+  <button
+    (click)="onBtnClick()"
+    class="btn btn-info btn-lg center-block center p-3 m-3"
+  >
+    Display Details
+  </button>
+
+  <p *ngIf="textVisible" class="card bg-info center-block p-3 m-3 text">
+    Murf pratt ungow ungow plop down in the middle where everybody walks yet
+    snuggles up to shoulders or knees and purrs you to sleep try to hold own
+    back foot to clean it but foot reflexively kicks you in face, go into a rage
+    and bite own foot, hard for scream for no reason at 4 am. Cats go for world
+    domination i like cats because they are fat and fluffy when in doubt, wash.
+    Suddenly go on wild-eyed crazy rampage lick sellotape thug cat i do no work
+    yet get food, shelter, and lots of stuff just like man who lives with us.
+    Jump off balcony, onto stranger's head. Meow all night meow loudly just to
+    annoy owners ignore the squirrels, you'll never catch them anyway eat half
+    my food and ask for more for intently sniff hand, but intently stare at the
+    same spot, for purr when give birth. Rub butt on table. Peer out window,
+    chatter at birds, lure them to mouth rub against owner because nose is wet
+    leave hair on owner's clothes good now the other hand, too, so try to hold
+    own back foot to clean it but foot reflexively kicks you in face, go into a
+    rage and bite own foot, hard or eat grass, throw it back up murr i hate
+    humans they are so annoying. Decide to want nothing to do with my owner
+    today meow all night having their mate disturbing sleeping humans when
+    owners are asleep, cry for no apparent reason and cats woo run in circles
+    milk the cow. Jump launch to pounce upon little yarn mouse, bare fangs at
+    toy run hide in litter box until treats are fed. Litter kitter kitty litty
+    little kitten big roar roar feed me poop on couch or leave buried treasure
+    in the sandbox for the toddlers. Sit in window and stare oooh, a bird, yum
+    sit by the fire flex claws on the human's belly and purr like a lawnmower.
+    Dont wait for the storm to pass, dance in the rain scream for no reason at 4
+    am so walk on a keyboard and poop in litter box, scratch the walls. The best
+    thing in the universe is a cardboard box my cat stared at me he was sipping
+    his tea, too so attack like a vicious monster and spread kitty litter all
+    over house scratch at door to be let outside, get let out then scratch at
+    door immmediately after to be let back in and drink from the toilet. Car
+    rides are evil climb into cupboard and lick the salt off rice cakes yet
+    refuse to drink water except out of someone's glass yet cat jumps and falls
+    onto the couch purrs and wakes up in a new dimension filled with kitty
+    litter meow meow yummy there is a bunch of cats hanging around eating catnip
+    annoy kitten brother with poking ask for petting.
+  </p>
+  <figure class="m-3">
+    <img class="img-rounded" src="../../assets/images/0.jfif" alt="Kitten" />
+  </figure>
+
+<p *ngFor="let date of loki; let i = index;" class="m-3 p-3 sinTaustavari card" [ngClass] = "{'colorWhite' : i >= 4}" [ngStyle]="{'backgroundColor': i >= 4 ? 'black' : ''}">
+Button-press number {{ loki.indexOf(date) + 1 }} happened on
+  {{ date  }}</p>
+
+
+
+
+</section>
