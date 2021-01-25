@@ -118,8 +118,13 @@
               "devServerTarget": "sovella-ng-directives:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "sovella-ng-directives"
 }
